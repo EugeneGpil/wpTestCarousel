@@ -221,11 +221,14 @@
         font-size: 18px;
     }
 
-    .navbar-001 .custom-slider .carousel-inner img {
+    .img-responsive {
         position: relative;
-        height: 100%;
-        width: auto;
+        height: 400px;
+        width: 100%;
         max-width: none;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .navbar-001 .custom-slider .carousel-caption {
