@@ -153,7 +153,15 @@
 }
 
 .customize-support{
-    min-height: 500px;
+    min-height: 200px;
+}
+
+.item .hidden-xs{
+    width: 100%;
+    padding-top: 35%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* media queries */
@@ -268,5 +276,9 @@
 @media screen and (max-width: 329px){
     .navbar-001 .custom-slider .carousel-caption{
         top: 0;
+    }
+
+    .mobile#wpadminbar{
+        min-width: 200px;
     }
 }
