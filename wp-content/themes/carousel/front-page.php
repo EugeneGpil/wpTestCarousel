@@ -56,8 +56,7 @@
                                     </div>                                                                 
                                 </div>
                             </div>
-                            <!-- <img class="img-responsive hidden-xs" src="<?php the_post_thumbnail_url('main') ?>" alt="slide<?= $i+1 ?>"> -->
-                            <div class="hidden-xs" style="background-image: url('<?php the_post_thumbnail_url('mobile') ?>" alt="slide<?= $i+1 ?>"></div>
+                            <div class="hidden-xs" style="background-image: url('<?php the_post_thumbnail_url('main') ?>" alt="slide<?= $i+1 ?>"></div>
                             <div style="background-image: linear-gradient(rgba(256,256,256,0.65), rgba(256,256,256,0.65)), url('<?php the_post_thumbnail_url('mobile') ?>')"class="img-responsive hidden-sm hidden-md hidden-lg" alt="slide<?= $i+1 ?>"></div>
                         </div>
 
